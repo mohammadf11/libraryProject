@@ -13,7 +13,7 @@ export class LibraryService {
    * @param userId - the user's ID
    * @param bookId - the book's ID
    */
-  borrowBokk(userId: string, bookId: string) {
+  borrowBook(userId: string, bookId: string) {
     const user = this.library.findUserById(userId);
     const book = this.library.findBookById(bookId);
 
