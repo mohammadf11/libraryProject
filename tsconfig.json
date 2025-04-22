@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",         // نسخه JS خروجی
+    "module": "CommonJS",       // برای سازگاری با Node.js
+    "rootDir": "src",           // پوشه‌ای که کدها داخلشه
+    "outDir": "dist",           // خروجی کامپایل کجا ذخیره بشه
+    "strict": true,             // بررسی‌های سخت‌گیرانه تایپ‌ها
+    "esModuleInterop": true     // برای وارد کردن پکیج‌هایی که ES نیستند
+  }
+}
